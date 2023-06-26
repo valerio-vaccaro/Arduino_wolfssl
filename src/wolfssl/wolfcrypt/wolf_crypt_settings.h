@@ -221,7 +221,7 @@
  */
 
 /* Uncomment next line if building for using ESP-IDF */
-/* #define WOLFSSL_ESPIDF */
+#define WOLFSSL_ESPIDF
 
 /* Uncomment next line if using Espressif ESP32-WROOM-32 */
 /* #define WOLFSSL_ESPWROOM32 */
