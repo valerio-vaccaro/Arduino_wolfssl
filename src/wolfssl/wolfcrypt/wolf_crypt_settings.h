@@ -799,7 +799,7 @@ extern void uITRON4_free(void *p) ;
 
 
 #ifdef FREERTOS
-    #include "FreeRTOS.h"
+    #include "freertos/FreeRTOS.h"
 
     #if !defined(XMALLOC_USER) && !defined(NO_WOLFSSL_MEMORY) && \
         !defined(WOLFSSL_STATIC_MEMORY) && !defined(WOLFSSL_TRACK_MEMORY)
